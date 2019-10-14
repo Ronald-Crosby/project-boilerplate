@@ -1,0 +1,9 @@
+$bp-tablet: 650px;
+$bp-laptop: 1000px;
+$bp-dekstop: 1200px;
+
+@mixin media($breakpoint) {
+    @media all and (min-width: $breakpoint) {
+        @content
+    }
+}
